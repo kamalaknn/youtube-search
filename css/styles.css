@@ -1,0 +1,204 @@
+
+/*Basic Page Styling*/
+body {
+	font-family: helvetica;
+	color: gray;
+	background: black;
+	font-size: 12px;
+}
+#main-container {
+	width: 1000px;
+	background: #fff;
+    margin: auto;
+	box-shadow: 0 0 2px 2px #ccc;
+	margin-top: 80px
+}
+#icon {
+	margin: 0 0.125em;
+  	padding: 0;
+	display: inline;
+	vertical-align: bottom;
+	height: 35px;
+	width:35px;
+}
+header {
+	font-size: 110%;
+	padding: 20px 20px;
+	background: #f4f4f4;
+}
+header span {
+	color: red;
+}
+section {
+	padding: 30px 40px 20px 40px;
+}
+footer {
+	padding: 10px;
+	background: #f4f4f4;
+	text-align: center;
+}
+
+/*Styling for Search Field & Button*/
+
+/* Input Field*/
+#search {
+	height: 34px;
+	padding-left: 10px;
+	font-size: 20px;
+	color: #888;
+	width: 40%;
+	border: 1px solid #eee;
+}
+::placeholder {
+    color: gray;
+    opacity: 0.5; /* Firefox */
+}
+/*search button*/
+#search-btn {
+	height: 40px;
+	background: red;
+	border: 0;
+	width: 100px;
+	font-size: 15px;
+	color: #fff;
+	margin-left: 20px;
+	cursor: pointer;
+	border-radius: 10px
+}
+#search-btn:hover {
+	color: #f4f4f4;
+	opacity: 0.8
+}
+
+
+/*Styling For Result List*/
+
+/* For Result List*/
+#results>li {
+	display: list-item;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	list-style-type: none;
+}
+/*Right Div element*/
+#results .list-right {
+	overflow: hidden;
+	padding-left: 20px;
+	padding-top: 0px;
+}
+/*Left Div element*/
+#results .list-left {
+	float: left;
+	width: 224px;
+	height: 124px;
+	overflow: hidden;
+	margin-top: 20px;
+	position: relative;
+
+}
+/*Vidoe Thumbnail*/
+#results img {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	cursor: pointer;
+}
+/*styling when mosue is hovered over the thumbnail*/
+#results .list-left:hover {
+	opacity: 0.8;
+}
+/*Video Link*/
+#results a {
+	color: inherit;
+	text-decoration: none;
+}
+#results a:hover {
+	color: #167ac6;
+}
+/*Video Details*/
+#results h2 {
+	font-weight: normal;
+	color: #167ac6;	
+}
+#results h2:hover {
+	text-decoration: underline;
+}
+
+
+/*Styling For Sorting Option*/
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	float: right;
+	visibility: hidden;
+}
+/* Dropdown Button */
+.dropbtn {
+	background: red;
+    color: white;
+    height: 20px;
+	border: 0;
+	width: 100px;
+	font-size: 12px;
+	color: #fff;
+	margin-left: 20px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+/* Dropdown Content*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* options inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown options on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+#changePageButtons {
+	margin-bottom: 30px;
+}
+
+
+
+/*Next & Previoius Page Buttons*/
+#prevPage, #nextPage {
+	background: red;
+	height: 30px;
+	border: 0;
+	width: 100px;
+	font-size: 12px;
+	color: white;
+	line-height: 30px;
+	border-radius: 10px;
+}
+#prevPage:hover, #nextPage:hover {
+	opacity: 0.8;
+}
+
+#prevPage {
+	float: left;
+}
+#nextPage {
+	float: right;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Youtube Search </title>
+   	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<div id="main-container">
+		<header>
+			<h1><img src="icon.png" id='icon'><span>Youtube</span> Search</h1>
+		</header>
+		<section>
+			<div class="search-container">
+				<input type="text" id="search" class="search-field" placeholder="Type Here..." name="">
+				<button id="search-btn">Search </button>
+				<div class="dropdown">
+					<button class="dropbtn">Sort By</button>
+					<div class="dropdown-content">
+						<a href="#" id = "sort-name">Name</a>
+						<a href="#" id = "sort-date">Published Date</a>
+					</div>
+				</div>				
+			</div>
+			<ul id="results"></ul>
+			<div id="changePageButtons"></div>
+		</section>
+		<footer>
+			<p>Youtube Search Using Youtube API v3, created By: Appurva Murawat</p>	
+		</footer>
+	</div>
+</body>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</html>
