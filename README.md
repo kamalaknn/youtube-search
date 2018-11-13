@@ -8,7 +8,7 @@ YouTube Search is an Web App that uses YouTube API v3 to show resulting list of 
   - User can use Next/Previous buttons at the bottom of each page to navigate between results on different pages.
 
 #### Tech
-YouTube Search uses the follwing technologies:
+YouTube Search uses the following technologies:
 * [HTML](https://www.w3.org/html/) - Standard markup language for creating web pages and web applications.
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - Style sheet language used for describing the presentation of a document written in a markup language
 * [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript
