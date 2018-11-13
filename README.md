@@ -20,7 +20,7 @@ These instructions will get you a copy of the project up and running on your loc
 ###### Prerequisites
 A web browser ( preferably Google Chrome).
 ###### Installations
-- Download the zip file of the project either from the [Github](https://github.com/appurva21/youtube-search) or the from the attachment with the mail.
+- Download the zip file of the project from the [Github](https://github.com/appurva21/youtube-search).
 - Unzip the folder and open index.html file in the browser.
 
 #### Running the Test
